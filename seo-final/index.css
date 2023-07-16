@@ -1,0 +1,229 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+.header {
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(150, 157, 248), rgba(226, 35, 220, 0.993));
+    position: absolute;
+    width: 100%;
+    height: 670px;
+    object-fit: cover;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleLg {
+    color: blue;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    text-shadow: 2px 2px 4px rgba(44, 5, 112, 0.5);
+    top: 30%;
+    font-size: 70px;
+}
+
+.titleSm {
+    position: absolute;
+    top: 45%;
+    font-size: 40px;
+}
+
+.signup-btn {
+    font-size: 18px;
+    top: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 14px;
+    border-style: unset;
+    color: white;
+    background-color: #FF622D;
+    transition: transform 0.3s;
+
+}
+
+.signup-btn:hover {
+    transform: scale(1.1);
+}
+
+.image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 15%;
+}
+
+div.footer {
+    position: absolute;
+    margin-top: 1350px;
+    height: 240px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(150, 157, 248, 0.7), rgba(226, 35, 220, 0.737));
+}
+
+
+div.footer h1 {
+    width: 240px;
+    margin: 100px 50px 0px 50px;
+    font-family: Jost, Helvetica, Arial, sans-serif;
+}
+
+div.media {
+    top: 10px;
+    text-align: right;
+    margin-right: 90px;
+    margin-top: -50px;
+}
+
+.media h4 {
+    margin-top: -60px;
+    width: 100px;
+    position: absolute;
+    margin-right: 20px;
+    text-align: right;
+    padding: 0 0 0 1100px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+div.copy {
+    text-align: center;
+    margin-top: 110px;
+    padding-right: 15px;
+}
+
+div.info {
+    position: absolute;
+    top: 10px;
+    margin-left: 580px;
+}
+
+p.company {
+    position: absolute;
+    font-size: 15px;
+    top: 45px;
+}
+
+.tc {
+    font-size: 15px;
+    position: absolute;
+    top: 85px;
+    margin-left: -15px;
+}
+
+.contact {
+    position: absolute;
+    padding-left: 225px;
+    top: 0;
+}
+
+a.customer-care {
+    display: flex;
+    font-size: 14px;
+    margin-left: 215px;
+    position: absolute;
+    top: 50px;
+    padding-bottom: 10px;
+}
+
+.tech-support {
+    top: 10px;
+    display: flex;
+    position: relative;
+    margin-left: 215px;
+    font-size: 14px;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.service {
+    padding-top: 18px;
+    display: flex;
+    position: relative;
+    margin-left: 215px;
+    font-size: 14px;
+}
+
+.s-head {
+    font-size: 60px;
+    position: absolute;
+    margin-top: 690px;
+    margin-left: 480px;
+    font-family: 'Playfair Display', serif;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    margin: 800px 50px 0 65px;
+    width: 90%;
+    height: 500px;
+    border: lightgray;
+    border-width: 2px;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 1px rgba(96, 98, 98, 0.2);
+
+}
+
+.slider-container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.seo {
+    position: absolute;
+    margin: 70px 0 0 120px;
+    font-size: 30px;
+}
+
+.seo-head {
+    position: absolute;
+    margin: 140px 0 0 120px;
+    font-size: 25px;
+}
+
+.u-list {
+    position: absolute;
+    margin: 250px 0 0 100px;
+}
+
+li {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.imageo {
+    position: relative;
+    height: 350px;
+    width: 370px;
+    margin: 80px 70px 70px 750px;
+    border: lightgray;
+    border-width: 1px;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px lightgrey;
+}
